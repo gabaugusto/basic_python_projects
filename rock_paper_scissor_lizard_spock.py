@@ -1,5 +1,5 @@
 print('==================================================================')
-print('				 Rock Paper Scissor Games')
+print('				 Rock Paper Scissor Lizard Spock Game')
 print('==================================================================')
 
 from random import randint 
