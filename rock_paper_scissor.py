@@ -2,9 +2,9 @@ print('==================================================================')
 print('                 Rock Paper Scissor Game')
 print('==================================================================')
 
-from random import randint 
+from random import randint
 
-choice = ["Rock", "Paper", "Scissor"]
+choice = ("Rock", "Paper", "Scissor")
 computer = choice[randint(0,2)]
 player = ""
 
@@ -46,6 +46,7 @@ def play():
 	except Exception as e: 
 		print("Error. Try again.")
 		print(e)
+		play()
 		
 
 if __name__ == "__main__":
